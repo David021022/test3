@@ -1,0 +1,29 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Backend - Package (mvnw)" type="MavenRunConfiguration" factoryName="Maven">
+    <MavenSettings>
+      <option name="myGeneralSettings" />
+      <option name="myRunnerSettings">
+        <MavenRunnerSettings>
+          <option name="jreName" value="ms-17" />
+        </MavenRunnerSettings>
+      </option>
+      <option name="myRunnerParameters">
+        <MavenRunnerParameters>
+          <option name="cmdOptions" value="-DskipTests" />
+          <option name="workingDirPath" value="$PROJECT_DIR$/exam-system/backend" />
+          <option name="pomFileName" value="pom.xml" />
+          <option name="goals">
+            <list>
+              <option value="clean" />
+              <option value="package" />
+            </list>
+          </option>
+          <option name="profiles">
+            <set />
+          </option>
+        </MavenRunnerParameters>
+      </option>
+    </MavenSettings>
+    <method v="2" />
+  </configuration>
+</component>
